@@ -68,7 +68,9 @@ Datensatz: **Kaggle – Shopping Trends Dataset**
 3. Beziehungen unter „Database Tools → Relationships“ ansehen  
 4. Eigene Auswertungen erstellen
 
-ShoppingDB/
+ShoppingDB
+```
+/
 ├─ README.md                     # Erklärung des Projekts
 ├─ ShoppingDB.accdb             # Access-Datenbank
 ├─ data/
@@ -76,4 +78,5 @@ ShoppingDB/
 ├─ docs/
 │  ├─ schema_relationships.png  # Screenshot Relationships-Fenster
 
+```
 
