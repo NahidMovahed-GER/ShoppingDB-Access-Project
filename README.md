@@ -69,9 +69,8 @@ Datensatz: **Kaggle – Shopping Trends Dataset**
 4. Eigene Auswertungen erstellen
 
 ShoppingDB
-```
-/
-├─ README.md                     # Erklärung des Projekts
+```/
+├─ README.md                    # Erklärung des Projekts
 ├─ ShoppingDB.accdb             # Access-Datenbank
 ├─ data/
 │  └─ shopping_trends.csv       # Original-Datensatz von Kaggle
@@ -79,4 +78,5 @@ ShoppingDB
 │  ├─ schema_relationships.png  # Screenshot Relationships-Fenster
 
 ```
+
 
