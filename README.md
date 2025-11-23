@@ -70,13 +70,20 @@ Datensatz: **Kaggle – Shopping Trends Dataset**
 
 ShoppingDB
 ```/
-├─ README.md                    # Erklärung des Projekts
-├─ ShoppingDB.accdb             # Access-Datenbank
+shoppingdb-access-project/
+│
 ├─ data/
-│  └─ shopping_trends.csv       # Original-Datensatz von Kaggle
 ├─ docs/
-│  ├─ schema_relationships.png  # Screenshot Relationships-Fenster
+│   ├─ forms/
+│   ├─ logs/
+│   ├─ queries/
+│   ├─ exports/
+│
+├─ ShoppingDB.accdb
+├─ README.md
+└─ (falls du willst: .gitignore)
 
 ```
+
 
 
