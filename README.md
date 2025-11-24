@@ -92,9 +92,16 @@ ShoppingDB
 │   └─ ShoppingDB.accdb          # Die Access-Datenbank
 │
 └─ README.md
-
-
 ```
+## Screenshots
+
+Screenshots befinden sich im Ordner docs/:
+- Hauptmenü
+- Import-Erfolgs-Meldung
+- MigrationLog-Tabelle
+- Alle wichtigen Abfragen
+- Export-Datei im Explorer
+
 
 
 
