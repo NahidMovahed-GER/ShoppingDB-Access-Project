@@ -56,13 +56,28 @@ Dadurch entsteht eine übersichtliche und normalisierte Datenbank.
 Dieses Projekt eignet sich perfekt als Beispiel für:
 ### Datenbankentwicklung, Access-Automatisierung, SQL-Analyse und Datenmigration.
 
-## Erweiterungen
-Das Projekt wird später erweitert, unter anderem um:
+## Funktionen des Projekts
+### Automatischer Import neuer Kunden
 
-- Beispielabfragen (SQL & Design View)  
-- Formulare  
-- Reports  
-- Kleine Analysen zur Einkaufsstatistik  
+- Neue Einträge aus shopping_trends_updated.csv
+- Abgleich per CustomerID
+- Nur neue Kunden werden übernommen
+- Ergebnis erscheint in einer Meldung
+- Ein Eintrag wird im MigrationLog gespeichert
+
+### Wichtige Abfragen
+
+Alle Abfragen laufen direkt in Access:
+- qry_NewCustomers
+- qry_AppendNewCustomers
+- qry_UmsatzProKunde
+- qry_UmsatzNachSubscription
+- qry_UmsatzNachStandort
+Screenshots der Ergebnisse befinden sich im Ordner docs/.
+
+### Export-Funktion
+
+Die Analyse „Umsatz nach Standort“ wird per Button in eine Excel-Datei exportiert.
 
 ## Quelle
 Datensatz: **Kaggle – Shopping Trends Dataset**  
@@ -101,6 +116,7 @@ Screenshots befinden sich im Ordner docs/:
 - MigrationLog-Tabelle
 - Alle wichtigen Abfragen
 - Export-Datei im Explorer
+
 
 
 
