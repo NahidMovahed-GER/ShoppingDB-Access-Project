@@ -70,20 +70,26 @@ Datensatz: **Kaggle – Shopping Trends Dataset**
 
 ShoppingDB
 ```/
-shoppingdb-access-project/
+
 │
-├─ data/
+├─ data/                         # Original- und Update-Datensatz
+│   ├─ shopping_trends.csv
+│   └─ shopping_trends_updated.csv
+│
 ├─ docs/
-│   ├─ forms/
-│   ├─ logs/
-│   ├─ queries/
-│   ├─ exports/
+│   ├─ forms/                    # Screenshots der Formulare
+│   ├─ logs/                     # Screenshots der Log-Tabelle
+│   ├─ queries/                  # Screenshots der Abfragen
+│   └─ exports/                  # Export-Dateien (Excel)
 │
-├─ ShoppingDB.accdb
-├─ README.md
-└─ (falls du willst: .gitignore)
+├─ src/
+│   └─ ShoppingDB.accdb          # Die Access-Datenbank
+│
+└─ README.md
+
 
 ```
+
 
 
 
