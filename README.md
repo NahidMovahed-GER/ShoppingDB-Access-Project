@@ -47,8 +47,14 @@ Dadurch entsteht eine übersichtliche und normalisierte Datenbank.
 - OrderDate  
 
 ## Ziel des Projekts
-Die Datenbank zeigt, wie man einen echten, ungeordneten Datensatz in ein sauberes relationales Datenmodell überführt.  
-Damit wird das Arbeiten mit Abfragen, Berichten und Analysen deutlich einfacher.
+- Arbeiten mit echten Daten
+- Normalisierung in separate Tabellen
+- Erstellen von Joins und Analysen
+- Formulare für Benutzer
+- Automatisierung (Import + Logging + Export)
+
+Dieses Projekt eignet sich perfekt als Beispiel für:
+### Datenbankentwicklung, Access-Automatisierung, SQL-Analyse und Datenmigration.
 
 ## Erweiterungen
 Das Projekt wird später erweitert, unter anderem um:
@@ -89,6 +95,7 @@ ShoppingDB
 
 
 ```
+
 
 
 
