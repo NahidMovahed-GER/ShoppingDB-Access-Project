@@ -43,8 +43,6 @@ Dadurch entsteht eine übersichtliche und normalisierte Datenbank.
 - ShippingType  
 - ReviewRating  
 - Subscription  
-- Quantity  
-- OrderDate  
 
 ## Ziel des Projekts
 - Arbeiten mit echten Daten
@@ -116,6 +114,7 @@ Screenshots befinden sich im Ordner docs/:
 - MigrationLog-Tabelle
 - Alle wichtigen Abfragen
 - Export-Datei im Explorer
+
 
 
 
